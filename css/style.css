@@ -1,0 +1,54 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*-----*/
+
+#titulo-principal {
+    padding: 20px;
+    color: white;
+    font-size: 2rem;
+    background-color: rgb(72, 186, 206);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+#banner-central img {
+    width: 100%;
+}
+
+#form-inscrever {
+    padding: 15px;
+    background-color: #b1b1b1bb;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    max-width: 250px;
+}
+
+#form-inscrever__textos h2 {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+#form-inscrever__textos h2, p {
+    margin-bottom: 12px;
+}
+
+#form-inscrever__inputs input, select {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+#form-inscrever-submit {
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(72, 186, 206);
+    border: 0;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
