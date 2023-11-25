@@ -13,11 +13,15 @@
     font-weight: bold;
 }
 
-#banner-central img {
-    width: 100%;
+#banner-central {
+    background-image: url('../img/palestra.jpg');
+    background-size: cover;
+    padding: 20px;
+    overflow: hidden; /* clearfix, Força a div a considerar div filhas flutuantes como conteudo da div pai. */
 }
 
 #form-inscrever {
+    margin: 50px 70px 0 0;
     padding: 15px;
     background-color: #b1b1b1bb;
     float: right;
@@ -41,6 +45,17 @@
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 12px;
+}
+
+#form-inscrever__inputs select {
+    background-image: url('../img/arrow-down-sign-to-navigate.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    background-size: 12px;
+    /*Propriedades uteis para padronização de estilo na maioria dos navegadores.*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 #form-inscrever-submit {
