@@ -4,7 +4,7 @@
 
 #titulo-principal {
     padding: 20px;
-    color: white;
+    color: #ffffff;
     font-size: 2rem;
     background-color: rgb(72, 186, 206);
     text-transform: uppercase;
@@ -16,13 +16,14 @@
 #banner-central {
     background-image: url('../img/palestra.jpg');
     background-size: cover;
+    min-height: 65vh;
     padding: 20px;
     overflow: hidden; /* clearfix, Força a div a considerar div filhas flutuantes como conteudo da div pai. */
 }
 
 #form-inscrever {
     margin: 50px 70px 0 0;
-    padding: 15px;
+    padding: 20px;
     background-color: #b1b1b1bb;
     float: right;
     font-family: 'Roboto', sans-serif;
@@ -37,7 +38,7 @@
 }
 
 #form-inscrever__textos h2, p {
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 #form-inscrever__inputs input, select {
@@ -59,6 +60,7 @@
 }
 
 #form-inscrever-submit {
+    margin-bottom: 15px;
     padding: 10px;
     width: 100%;
     background-color: rgb(72, 186, 206);
@@ -66,4 +68,34 @@
     color: white;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+#rodape {
+    background-color: rgb(83, 83, 83);
+    color: #ffffffff;
+    min-height: 10vh;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+#rodape-imagem {
+    width: 220px;
+    height: 200px;
+}
+
+#rodape__textos {
+    margin-left: 30px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    max-width: 31%;
+}
+
+#rodape__textos h3{
+    margin-top: 25px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    margin-bottom: 28px;
 }
